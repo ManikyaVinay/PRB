@@ -1,0 +1,64 @@
+.Normaltext {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	font-weight: Regular;
+	line-height:16px;
+}
+.Normaltext1 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: Regular;
+	line-height:18px;
+}
+.Normaltext2 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: Regular;
+	line-height:18px;
+}
+.boldtext {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #494949;
+	font-size: 12px;
+	font-weight: Bold;
+	line-height:16px;
+}
+.Smalltext {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #626262;
+	font-size: 11px;
+	font-weight: Regular;
+}
+.Footertext {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	font-weight: Regular;
+}
+.H1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fae88a;
+	font-size: 14px;
+	font-weight: Bold;
+}
+.border {
+	border: 1px solid #a2a2a2;
+}
+.border1 {
+	border: 1px solid #a3d6d2;
+}
+a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: underline;
+	color: #fae88a;
+}
