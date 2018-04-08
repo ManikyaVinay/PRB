@@ -16,7 +16,7 @@ def home(request):
 		        print("The password is valid, but the account has been disabled!")
     	else:
 		    # the authentication system was unable to verify the username and password
-		    print("The username and password were incorrect.")
+		    print("The username and password were incorrect...!!")
     else:
     	return render(request, 'login.html', {"foo": "bar"},)
 
