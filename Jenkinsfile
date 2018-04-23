@@ -8,6 +8,9 @@ node{
     println lastcommitid
     def someothercommitid = "abcd"
     if( lastcommitid == someothercommitid ) {
+        echo "commits are same, so no need of calling shared process lib"
+    }
+    else{
         echo "commits are different, so should call shared process lib"
     }
 }
