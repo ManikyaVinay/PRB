@@ -7,10 +7,11 @@ node{
     def lastcommitid = "${commits[0].sha}"
     println lastcommitid
     def someothercommitid = "abcd"
-    if( lastcommitid == someothercommitid ) {
-        echo "commits are same, so no need of calling shared process lib"
+    def lastcommit = ""
+    if( (lastcommitid != someothercommitid) || !lastcommit?.trim() ) {
+        echo "commits are  different, so should call shared process lib"
     }
     else{
-        echo "commits are different, so should call shared process lib"
+        echo "no need of shared process lib as lastcommit is not empty or commits are same"
     }
 }
