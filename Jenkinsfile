@@ -6,9 +6,9 @@ node{
     def commits = new groovy.json.JsonSlurper().parse(projectURL.newReader())
     def lastcommitid = "${commits[0].sha}"
     println lastcommitid
-    def someothercommitid = "84a81cd1afc83cbbcad74a0f71fd1fc1aa5f51eb"
+    def someothercommitid = "abcd"
     def lastcommit = ""
-    if( (lastcommitid != someothercommitid) || !lastcommit?.trim() ) {
+    if( ("abcd" != someothercommitid) || !lastcommit?.trim() ) {
         echo "commits are  different, so should call shared process lib"
     }
     else{
