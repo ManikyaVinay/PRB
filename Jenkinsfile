@@ -6,6 +6,6 @@ node{
     def projects = new groovy.json.JsonSlurper().parse(projectList.newReader())
     println "lasst commit: ${projects[0].sha}"
     projects.each {
-      println it.name
+      println it.sha
     }
 }
